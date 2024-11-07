@@ -1,7 +1,7 @@
 wget -O win.iso "https://archive.org/download/windows.-xlite.-atomic.-11.v-1.-by.-fbconan/Windows.XLite.%27Atomic.11%27.v1.By.FBConan.iso"
 wget -O ngrok.tgz "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz"
 tar -xf ngrok.tgz
-./ngrok authtoken /your code ngrok/
+./ngrok authtoken 2lUbhsth9JPKKxa2WffVClYD7Uf_44tHaHLV2idY1GtbT99Zo
 ./ngrok tcp 5900
 sudo apt update
 sudo apt install qemu-kvm -y
